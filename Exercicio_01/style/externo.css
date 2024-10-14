@@ -1,0 +1,46 @@
+.borda_do_cartao{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+}
+
+.borda_do_cartao .caixa{
+    background-color: white;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 30px;
+}
+
+.borda_do_cartao .caixa2{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 30px;
+}
+
+img{
+    float: left;
+    padding: 10px;
+    margin: 15px;
+    background-color: black;
+}
+
+h1{
+    font-size: large;
+    background-color: red;
+    float: right;
+}
+
+h2{
+    font-size: small;
+}
+
+h3{
+    font-size: medium;
+}
+h4{
+    font-size: small;
+}

@@ -1,0 +1,40 @@
+#overflowVisible {
+    background: #7ddf64ff;
+    color: white;
+    padding: 15px;
+    width: 50%;
+    height: 100px;
+    overflow: visible;
+    border: 1px solid #ccc;
+}
+
+
+#overflowHidden {
+    background: #c0df85ff;
+    color: white;
+    padding: 15px;
+    width: 50%;
+    height: 100px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+#overflowScroll {
+    background: #deb986ff;
+    color: black;
+    padding: 15px;
+    width: 50%;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+}
+
+#overflowAuto {
+    background: #db6c79ff;
+    color: white;
+    padding: 15px;
+    width: 50%;
+    height: 100px;
+    overflow: auto;
+    border: 1px solid #ccc;
+}
