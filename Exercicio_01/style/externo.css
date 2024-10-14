@@ -1,46 +1,74 @@
-.borda_do_cartao{
+:root {
+    /*paletinha de cores*/
+    /*v1*/
+    --mint-green: #ddfff7;
+    --mimi-pink: #ffd2fc;
+    --violet-web-color: #e980fc;
+    --french-mauve: #b96ac9;
+    --licorice: #231b1b;
+    /*v2*/
+    --indigo-dye: #08415cff;
+    --persian-red: #cc2936ff;
+    --tea-rose-red: #ebbab9ff;
+    --blue-munsell: #388697ff;
+    --aquamarine: #b5ffe1ff;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--indigo-dye);
+}
+
+.borda_do_cartao {
     display: flex;
-    flex-wrap: nowrap;
-    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
-.borda_do_cartao .caixa{
-    background-color: white;
-    width: 100%;
-    margin: 10px;
-    text-align: center;
-    line-height: 10px;
-    font-size: 30px;
+.caixa {
+    background-color: var(--persian-red);
+    width: 550px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
-.borda_do_cartao .caixa2{
-    width: 100%;
-    margin: 10px;
-    text-align: center;
-    line-height: 10px;
-    font-size: 30px;
-}
-
-img{
+img {
     float: left;
-    padding: 10px;
-    margin: 15px;
-    background-color: black;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    /*margin-bottom: 15px;*/
 }
 
-h1{
-    font-size: large;
-    background-color: red;
-    float: right;
+.perfil h1 {
+    font-size: 24px;
+    color: var(--aquamarine);
+    margin: 10px 0;
 }
 
-h2{
-    font-size: small;
+.perfil h2 {
+    font-size: 18px;
+    color: var(--blue-munsell);
+    margin-bottom: 20px;
+    border: 10px var(--licorice);
 }
 
-h3{
-    font-size: medium;
+.objetivos h3 {
+    font-size: 20px;
+    color: var(--aquamarine);
+    margin-bottom: 10px;
 }
-h4{
-    font-size: small;
+
+.objetivos p {
+    font-size: 16px;
+    color: var(--tea-rose-red);
+    line-height: 1.5;
 }
