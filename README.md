@@ -14,28 +14,28 @@ Repositório para as aulas de Programação Web I. Ministradas pelo professor Da
  
  4 - Hora de configurar o programa, na documentação (https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git) vamos utilizar dos comandos para cadastrar nossas credenciais do Git no computador através dos comandos:
 
-		git config --global user.name "kleberbrilante"
+	git config --global user.name "kleberbrilante"
 e
 
-		git config --global user.email augustokl@outlook.com
+	git config --global user.email augustokl@outlook.com
 
 IMPORTANTE! Atente que os dados acima precisam ser os seus! 
 Para verificar a configuração deu certo digite:
 
-		git config --list
+	git config --list
 
 
 5 - No seu repositório clique no botão verde 'Code' e escolha a opção 'HTTP' e em seguida copie o endereço do seu repositório oferecido na opção.
 
 6 - No terminal digite o comando 'git clone' acompanhado do endereço copiado. Ex.:
 
-		git clone https://github.com/davivilar/pwi-davi-vilar.git
+	git clone https://github.com/kleberbrilhante/pwi-kleber-morais.git
 
 7 - No Git bash liste as pastas com o comando 'ls' e verifique se seu repositório foi baixado.
 
 8 - No terminal você pode digitar o comando 
 
-		ls' 
+	ls' 
 	
 para listar os arquivos e pastas do local que você está. No Git bash as pastas ficam destacadas da cor azul e com '/' no final. Certifique-se que a pasta do seu repositório se encontra no local (ela tem o mesmo nome do seu repositório).
 
